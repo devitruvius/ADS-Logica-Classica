@@ -1,5 +1,7 @@
 # Conceitos de Lógica Clássica
 
+## Objetivo
+
 Este repositório contém questões de lógica clássica resolvidas como parte das atividades relacionadas à disciplina de Introdução à Lógica de Computação, do curso Análise e Desenvolvimento de Sistemas (ADS) pela Universidade Federal do Cariri (UFCA). As questões foram elaboradas para explorar e consolidar os conceitos fundamentais da lógica clássica e sua aplicação em problemas práticos.
 
 ## Estrutura do Repositório
