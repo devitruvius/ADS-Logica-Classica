@@ -63,6 +63,20 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
 4. **Qual é o significado do princípio da não contradição na lógica clássica?**
 
    ```python
+   # Teste do Princípio da Não-Contradição
+   
+   afirmacao1 = True
+   afirmacao2 = False
+   
+   # Verificação do princípio da não contradição
+   if afirmacao1 and afirmacao2:
+       nao_contradicao = "As afirmações são contraditórias"
+   else:
+       nao_contradicao = "As afirmações não são contraditórias"
+   
+   # Imprime o resultado
+   print(nao_contradicao)
+
 
 5. **O que caracteriza a falácia do espantalho?**
 
