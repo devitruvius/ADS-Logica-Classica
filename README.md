@@ -13,25 +13,6 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
 1. **Como um silogismo é estruturado e qual sua aplicação na lógica?**
 
    ```python
-   class Silogismo:
-    def __init__(self, premissa_maior, premissa_menor, conclusao):
-        self.premissa_maior = premissa_maior
-        self.premissa_menor = premissa_menor
-        self.conclusao = conclusao
-
-    def validar_silogismo(self):
-        # Verifica se as premissas implicam na conclusão
-        return self.premissa_maior and self.premissa_menor == self.conclusao
-
-
-   # Exemplo de Silogismo utilizando FBFS
-   premissa_maior = True   # P -> Q
-   premissa_menor = True   # Q -> R
-   conclusao = True        # P -> R
-   
-   silogismo = Silogismo(premissa_maior, premissa_menor, conclusao)
-   print("Silogismo é válido:", silogismo.validar_silogismo())
-
 
 2. **O que afirma o princípio da identidade na lógica clássica?**
 
