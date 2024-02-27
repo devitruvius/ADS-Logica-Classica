@@ -13,10 +13,34 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
 1. **Como um silogismo é estruturado e qual sua aplicação na lógica?**
 
    ```python
+   # Premissas
+   premissa1 = "Sócrates é um homem"
+   premissa2 = "Todos os homens são mortais"
+   
+   # Conclusão
+   if premissa1 and premissa2:
+       conclusao = "Sócrates é mortal"
+   else:
+       conclusao = "Não é possível determinar se Sócrates é mortal"
+   
+   # Imprime a conclusão
+   print(conclusao)
+
 
 2. **O que afirma o princípio da identidade na lógica clássica?**
 
    ```python
+   # Item
+   item = "maçã"
+   
+   # Verifica se o item é igual a si mesmo
+   if item == item:
+       principio_da_identidade = True
+   else:
+       principio_da_identidade = False
+   
+   # Imprime o resultado
+   print("O princípio da identidade é válido para", item, "?", principio_da_identidade)
 
 3. **Qual é o principal problema da falácia do apelo à ignorância?**
 
