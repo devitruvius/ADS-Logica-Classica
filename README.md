@@ -27,7 +27,6 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
    # Imprime a conclusão
    print(conclusao)
 
-
 2. **O que afirma o princípio da identidade na lógica clássica?**
 
    ```python
@@ -77,7 +76,6 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
    # Imprime o resultado
    print(nao_contradicao)
 
-
 5. **O que caracteriza a falácia do espantalho?**
 
    ```python
@@ -98,6 +96,18 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
 6. **Como o princípio do terceiro excluído é aplicado na lógica clássica?**
 
    ```python
+   # Teste do Princípio do Terceiro Excluído
+   
+   proposicao = True
+   
+   # Verificação do princípio do terceiro excluído
+   if proposicao or not proposicao:
+       terceiro_excluido = "O princípio do terceiro excluído se aplica"
+   else:
+       terceiro_excluido = "O princípio do terceiro excluído não se aplica"
+   
+   # Imprime o resultado
+   print(terceiro_excluido)
   
 7. **Qual é a principal preocupação ao identificar a falácia do apelo à autoridade?**
 
