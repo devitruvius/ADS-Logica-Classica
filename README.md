@@ -13,7 +13,8 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
 1. **Como um silogismo é estruturado e qual sua aplicação na lógica?**
 
    ```python
-   # Premissas
+   # Silogismo de Sócrates
+   
    premissa1 = "Sócrates é um homem"
    premissa2 = "Todos os homens são mortais"
    
@@ -30,7 +31,8 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
 2. **O que afirma o princípio da identidade na lógica clássica?**
 
    ```python
-   # Item
+   # Teste do Princípio da Identidade
+   
    item = "maçã"
    
    # Verifica se o item é igual a si mesmo
@@ -45,6 +47,18 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
 3. **Qual é o principal problema da falácia do apelo à ignorância?**
 
    ```python
+   # Teste da Falácia
+   
+   afirmacao = "Não há evidências de que os alienígenas não existam."
+   
+   # Verificação da falácia do apelo à ignorância
+   if not afirmacao:
+       falacia = "Afirmativa falaciosa"
+   else:
+       falacia = "Afirmativa não falaciosa"
+   
+   # Imprime o resultado
+   print(falacia)
 
 4. **Qual é o significado do princípio da não contradição na lógica clássica?**
 
