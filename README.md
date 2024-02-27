@@ -112,7 +112,19 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
 7. **Qual é a principal preocupação ao identificar a falácia do apelo à autoridade?**
 
    ```python
-  
+   # Teste da Falácia do Apelo à Autoridade
+   
+   autoridade = "Médico renomado"
+   
+   # Verificação da falácia do apelo à autoridade
+   if autoridade == "Médico renomado":
+       falacia = "A cloroquina é eficaz no tratamento da COVID-19 porque um médico renomado disse."
+   else:
+       falacia = "A cloroquina não é eficaz no tratamento da COVID-19 apenas porque um médico renomado disse."
+   
+   # Imprime o resultado
+   print(falacia)
+
 8. **Como podemos definir a inferência indutiva?**
 
    ```python
