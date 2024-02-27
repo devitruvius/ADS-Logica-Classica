@@ -81,6 +81,19 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
 5. **O que caracteriza a falácia do espantalho?**
 
    ```python
+   # Teste da Falácia do Espantalho
+   
+   argumento = "Devemos investir em medidas para proteger o meio ambiente."
+   argumento_distorcido = "Pessoas que defendem o meio ambiente querem parar todo o desenvolvimento econômico."
+   
+   # Verificação da falácia do espantalho
+   if argumento_distorcido:
+       falacia = "Falácia do espantalho presente"
+   else:
+       falacia = "Não há falácia do espantalho presente"
+   
+   # Imprime o resultado
+   print(falacia)
   
 6. **Como o princípio do terceiro excluído é aplicado na lógica clássica?**
 
