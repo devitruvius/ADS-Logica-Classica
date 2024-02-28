@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Este repositório contém questões de lógica clássica resolvidas como parte das atividades relacionadas à disciplina de Introdução à Lógica de Computação, do curso Análise e Desenvolvimento de Sistemas (ADS) pela Universidade Federal do Cariri (UFCA). As questões foram elaboradas para explorar e consolidar os conceitos fundamentais da lógica clássica e sua aplicação em problemas práticos.
+Este repositório contém uma série de questões de lógica clássica resolvidas, desenvolvidas como parte das atividades da disciplina de Introdução à Lógica de Computação do curso de Análise e Desenvolvimento de Sistemas (ADS) da Universidade Federal do Cariri (UFCA). Neste repositório, cada questão é acompanhada por exemplos práticos implementados em Python. Esses exemplos ilustram a aplicação dos conceitos de lógica clássica em cenários computacionais, proporcionando uma compreensão mais profunda e prática dos fundamentos lógicos abordados.
 
 ## Estrutura do Repositório
 
