@@ -128,19 +128,57 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
 8. **Como podemos definir a inferência indutiva?**
 
    ```python
+   # Teste de Inferência Indutiva
+   
+   observacoes = [2, 4, 6, 8, 10]
+   
+   # Inferência: Todos os números observados são pares, portanto, por indução, o próximo número também será par
+   proximo_numero = 12
+   
+   # Imprime a inferência
+   print("O próximo número provavelmente será par:", proximo_numero)
 
 9. **Como podemos definir a lógica formal?**
 
    ```python
+   # Validação da Lógica Formal
+   
+   premissa1 = True
+   premissa2 = True
+   
+   # Conclusão válida pela lógica formal
+   if premissa1 and premissa2:
+       conclusao = True
+   else:
+       conclusao = False
+   
+   # Imprime a conclusão
+   print("A conclusão é válida pela lógica formal?", conclusao)
+
 
 10. **Qual é a relação entre silogismo e falácia na estrutura argumentativa?**
 
     ```python
-
-11. **O que caracteriza uma falácia em um argumento?**
-
-    ```python
-
-12. **Como a proposição se diferencia de premissa em um argumento lógico?**
-
-    ```python
+    # Teste de Validade Silogística
+    
+    # Silogismo válido, premissas verdadeiras
+    premissa1 = True
+    premissa2 = True
+   
+    if premissa1 and premissa2:
+       conclusao = True
+    else:
+       conclusao = False
+   
+    print("Silogismo válido:", conclusao)
+   
+    # Falácia, premissas falsas
+    premissa1 = False
+    premissa2 = False
+   
+    if premissa1 and premissa2:
+       conclusao = True
+    else:
+       conclusao = False
+   
+    print("Falácia:", conclusao)
