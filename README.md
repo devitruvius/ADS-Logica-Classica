@@ -26,6 +26,7 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
    
    # Imprime a conclusão
    print(conclusao)
+<hr>
 
 2. **O que afirma o princípio da identidade na lógica clássica?**
 
@@ -42,6 +43,7 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
    
    # Imprime o resultado
    print("O princípio da identidade é válido para", item, "?", principio_da_identidade)
+<hr>
 
 3. **Qual é o principal problema da falácia do apelo à ignorância?**
 
@@ -58,6 +60,7 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
    
    # Imprime o resultado
    print(falacia)
+<hr>
 
 4. **Qual é o significado do princípio da não contradição na lógica clássica?**
 
@@ -75,6 +78,7 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
    
    # Imprime o resultado
    print(nao_contradicao)
+<hr>
 
 5. **O que caracteriza a falácia do espantalho?**
 
@@ -92,6 +96,7 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
    
    # Imprime o resultado
    print(falacia)
+<hr>
   
 6. **Como o princípio do terceiro excluído é aplicado na lógica clássica?**
 
@@ -108,6 +113,7 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
    
    # Imprime o resultado
    print(terceiro_excluido)
+<hr>
   
 7. **Qual é a principal preocupação ao identificar a falácia do apelo à autoridade?**
 
@@ -124,6 +130,7 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
    
    # Imprime o resultado
    print(falacia)
+<hr>
 
 8. **Como podemos definir a inferência indutiva?**
 
@@ -137,6 +144,7 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
    
    # Imprime a inferência
    print("O próximo número provavelmente será par:", proximo_numero)
+<hr>
 
 9. **Como podemos definir a lógica formal?**
 
@@ -154,7 +162,7 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
    
    # Imprime a conclusão
    print("A conclusão é válida pela lógica formal?", conclusao)
-
+<hr>
 
 10. **Qual é a relação entre silogismo e falácia na estrutura argumentativa?**
 
@@ -182,3 +190,7 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
        conclusao = False
    
     print("Falácia:", conclusao)
+
+## Lógica Computacional
+
+Acesse o repositório principal: https://github.com/devitruvius/ADS-logica-computacional
