@@ -208,6 +208,25 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
    
     print("Falácia:", conclusao)
 
-## Lógica Computacional
+## Navegação
+* **Questionário 1: Lógica Clássica**
+   - [Repositório do Questionário 1](https://github.com/devitruvius/ADS-Logica-Classica)
 
-Acesse o repositório principal: https://github.com/devitruvius/ADS-logica-computacional
+* **Questionário 2: Lógica Proposicional**
+   - [Repositório do Questionário 2]()
+
+* **Questionário 3: Consequências Lógicas e Argumentos**
+   - [Repositório do Questionário 3]()
+
+* **Questionário 4: Lógica de Predicados**
+   - [Repositório do Questionário 4]()
+
+* **Questionário 5: Lógica de Prolog**
+   - [Repositório do Questionário 5]()
+
+* **Repositório Pai: Lógica Computacional**
+   - [Lógica Computacional](https://github.com/devitruvius/ADS-logica-computacional/)
+
+## Licença
+
+Este repositório está licenciado sob a licença [MIT](https://choosealicense.com/licenses/mit/).
