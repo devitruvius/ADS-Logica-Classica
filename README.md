@@ -13,19 +13,36 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
 1. **Como um silogismo é estruturado e qual sua aplicação na lógica?**
 
    ```python
-   # Silogismo de Sócrates
+   def silogismo(premissa_maior, premissa_menor, termo_conclusao):
+     """
+     Função que verifica a validade de um silogismo.
    
-   premissa1 = "Sócrates é um homem"
-   premissa2 = "Todos os homens são mortais"
+     Argumentos:
+       premissa_maior (str): A premissa maior do silogismo.
+       premissa_menor (str): A premissa menor do silogismo.
+       termo_conclusao (str): O termo de conclusão do silogismo.
    
-   # Conclusão
-   if premissa1 and premissa2:
-       conclusao = "Sócrates é mortal"
+     Retorna:
+       bool: True se o silogismo for válido, False caso contrário.
+     """
+   
+     if termo_conclusao not in premissa_maior:
+       return False
+   
+     if termo_conclusao not in premissa_menor:
+       return False
+   
+     return True
+   
+   # Exemplo de uso
+   premissa_maior = "Todos os mortais são vulneráveis a doenças."
+   premissa_menor = "Sócrates é mortal."
+   termo_conclusao = "Sócrates é vulnerável a doenças."
+   
+   if silogismo(premissa_maior, premissa_menor, termo_conclusao):
+     print("Silogismo válido!")
    else:
-       conclusao = "Não é possível determinar se Sócrates é mortal"
-   
-   # Imprime a conclusão
-   print(conclusao)
+     print("Silogismo inválido!")
 <hr>
 
 2. **O que afirma o princípio da identidade na lógica clássica?**
